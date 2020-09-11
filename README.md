@@ -22,5 +22,8 @@ To start the ASGI server, use: 'uvicorn naivebayes:app --reload' in the BACK-END
 
 
 
-### FUTURE: 
-Future updates I hope to add are the ability to resize the elements in the web app to adjust based on screen size. I will also work on changing my dataset to one that is more accurate. I hope to add more algorithms to this WEB APP in the future. 
+### FUTURE UPDATE: 
+1. Resizing elements in the web app to adjust based on screen size.
+2. Improving my dataset to one that is more accurate. 
+3. Playing with more machine learning algorithms. Ideally I would like to work with a heart disease dataset. I would also like to learn other algorithms perhaps Computer Vision related or NLP related. 
+4. Improving the UI for easier access/use. 
