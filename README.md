@@ -18,11 +18,11 @@ To start the WEB APP, use: 'npm start' in the FRONT-END terminal
 
 To start the ASGI server, use: 'uvicorn naivebayes:app --reload' in the BACK-END terminal
 
-***Additional Information:*** I ran this in Python 3 and used pip3 to install any additional libraries for the BACK-END. I also did not include the node_modules folder. 
+***Additional Information:*** I ran this in Python v. 3.7.3 and used pip3 to install any additional libraries for the BACK-END. I did not include the node_modules folder in the FRONT_END. 
 
 
 
-### FUTURE UPDATE: 
+### FUTURE UPDATES: 
 1. Resizing elements in the web app to adjust based on screen size.
 2. Improving my dataset to one that is more accurate. 
 3. Playing with more machine learning algorithms. Ideally I would like to work with a heart disease dataset. I would also like to learn other algorithms perhaps Computer Vision related or NLP related. 
