@@ -18,7 +18,7 @@ To start the WEB APP, use: 'npm start' in the FRONT-END terminal
 
 To start the ASGI server, use: 'uvicorn naivebayes:app --reload' in the BACK-END terminal
 
-***Additional Information:*** I ran this in Python v. 3.7.3 and used pip3 to install any additional libraries for the BACK-END. I did not include the node_modules folder in the FRONT_END. 
+***Additional Information:*** I ran this in Python v. 3.7.3 and used pip3 to install any additional libraries for the BACK-END. I did not include the node_modules folder in the FRONT_END. Google's speech to text API only works on chrome.
 
 
 
