@@ -1,0 +1,298 @@
+
+/*HEADER*/
+h1 {
+  color: #007fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*TEXT FORMAT FOR INSTRUCTIONS*/
+.Instructions{
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/*COVID NAIVE BAYES HEADER*/
+.CovidHeader{
+  color: #3ab795;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+}
+
+/*TEXT FORMAT FOR COVID QUESTIONS*/
+.FeverTitle, .BodyPainTitle, .AgeTitle, .RunnyNoseTitle, .DifficultBreathingTitle{
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/*SEARCH BAR*/
+input[type=text] { 
+  border: 2px solid black;
+  border-radius: 4px;
+  color: black;
+  padding: 12px; 
+  margin: 4px 2px;
+}
+
+/*SUBMIT BUTTON*/
+/* input[type=submit] {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #3ab795;
+  color: black;
+  padding: 16px;
+  height: 50px;
+  width: 100px;
+} */
+
+/*COVID TEXT FIELDS*/
+input[type=CovidTextField] { 
+  border: 1px solid black;
+  border-radius: 4px;
+  color: black;
+  padding: 8px;  
+  margin: 4px 2px;
+}
+
+/*BIG CONTAINER HOLDS ALL VALUES HENCE position: relative*/
+.Big_Container{
+  position: relative;
+  top: 10%;
+  left: 3%;
+}
+
+/*SMALL CONTAINERS HOLDS SMALL BOXES HENCE position: absolute*/
+
+/*HEADER*/
+.Small_Container_1 {
+  position: absolute;
+  /* margin: 3% 3%; */
+  top: 20px;
+  left: 20px;
+}
+
+/*NAME TEXT BOX*/
+.Small_Container_2 {
+  position: absolute;
+  /* margin: 8% 3%; */
+  top: 110px;
+  left: 20px;
+}
+
+/*SUBMIT BUTTON*/
+.Small_Container_3{
+  position: absolute;
+  /* margin: 8% 24%; */
+  top: 110px;
+  left: 260px;
+}
+
+/*COVID NAIVE BAYES PARAGRAPH*/
+.Small_Container_4{
+  position: absolute;
+  top: 300px; 
+  left: 20px;
+}
+
+/*SUBMIT BUTTON 2 FOR COVID RESULT SUBMISSION*/
+.Small_Container_5{
+  position: absolute;
+  top: 500px; 
+  left: 440px;
+}
+
+/*RESET BUTTON*/
+.Small_Container_6{
+  position: absolute;
+  top: 180px;
+  left: 20px;
+}
+
+/*PARAGRAPH TEXT EXPLAINING*/
+.Small_Container_7{
+  position: absolute;
+  top: 60px;
+  left: 500px;
+  height: 50px;
+  width: 300px;
+}
+
+/*FEVER*/
+.Small_Container_8{
+  position: absolute;
+  top: 400px;
+  left: 20px;
+  height: 50px;
+  width: 300px;
+}
+
+/*FEVER*/
+.Small_Container_8_Title{
+  position: absolute;
+  top: 360px;
+  left: 20px;
+}
+
+
+/*BODYPAIN*/
+.Small_Container_9{
+  position: absolute;
+  top: 480px;
+  left: 20px;
+  height: 50px;
+  width: 300px;
+}
+
+/*BODYPAIN*/
+.Small_Container_9_Title{
+  position: absolute;
+  top: 440px;
+  left: 20px;
+}
+
+/*AGE*/
+.Small_Container_10{
+  position: absolute;
+  top: 560px;
+  left: 20px;
+  height: 50px;
+  width: 300px;
+}
+
+/*AGE*/
+.Small_Container_10_Title{
+  position: absolute;
+  top: 520px;
+  left: 20px;
+}
+
+/*RUNNY NOSE*/
+.Small_Container_11{
+  position: absolute;
+  top: 640px;
+  left: 20px;
+  height: 50px;
+  width: 300px;
+}
+
+/*RUNNY NOSE*/
+.Small_Container_11_Title{
+  position: absolute;
+  top: 600px;
+  left: 20px;
+}
+
+/*DIFFICULTY BREATHING*/
+.Small_Container_12{
+  position: absolute;
+  top: 720px;
+  left: 20px;
+  height: 50px;
+  width: 300px;
+}
+
+/*DIFFICULTY BREATHING*/
+.Small_Container_12_Title{
+  position: absolute;
+  top: 680px;
+  left: 20px;
+}
+
+/*RESULTS*/
+.Small_Container_13{
+  position: absolute;
+  top: 850px;
+  left: 15px;
+  height: 100px;
+  width: 250px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: #feffbe;
+}
+
+
+/*RESULTS PARAGRAPH*/
+div.Small_Container_13 p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  /* margin-right: -50%; */
+  transform: translate(-50%, -50%) 
+}
+
+/*RESULTS TITLE*/
+.Small_Container_13_Title{
+  position: absolute;
+  top: 800px;
+  left: 20px;
+}
+
+/*RESULTS TITLE PARAGRAPH*/
+div.Small_Container_13_Title p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute; 
+  color: #3ab795;
+}
+
+
+/*RESET MIC BUTTON*/
+.Reset{
+  background-color: #72a1e5;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  height: 50px;
+  width: 340px;
+}
+
+/*RESET MIC BUTTON LOOK WHEN SELECTED*/
+.Reset:active {
+  background-color: #007fff;
+  border-color: white;
+  border-radius: 10px; 
+}
+
+/*SUBMIT 2 FOR COVID RESULTS*/
+.Submit2{
+  background-color: #EBD494;
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 120px;
+  width: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/*SUBMIT 2 BUTTON LOOK WHEN SELECTED*/
+.Submit2:active {
+  background-color: #007fff;
+  border-color: white;
+  border-radius: 10px; 
+}
+
+/*SUBMIT BUTTON*/
+.Submit {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #3ab795;
+  color: black;
+  padding: 16px;
+  height: 50px;
+  width: 100px;
+}
+
+/*SUBMIT BUTTON LOOK WHEN SELECTED*/
+.Submit:active {
+  background-color: #007fff;
+  border-color: white;
+  border-radius: 10px; 
+}
