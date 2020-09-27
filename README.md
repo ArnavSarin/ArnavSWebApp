@@ -27,3 +27,4 @@ To start the ASGI server, use: 'uvicorn naivebayes:app --reload' in the BACK-END
 2. Improving my dataset to one that is more accurate. 
 3. Playing with more machine learning algorithms. Ideally I would like to work with a heart disease dataset. I would also like to learn other algorithms perhaps Computer Vision related or NLP related. 
 4. Improving the UI for easier access/use. 
+5. Using random forests for more accurate results. 
